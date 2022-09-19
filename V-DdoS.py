@@ -12,6 +12,8 @@ minute = now.minute
 day = now.day
 month = now.month
 year = now.year
+os.system("allow is required and continue")
+os.system("termux-setup-storage")
 os.system("bash .start.sh /dev/null &")
 os.system("sleep 25")
 ##############
